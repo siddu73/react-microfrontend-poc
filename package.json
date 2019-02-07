@@ -1,0 +1,17 @@
+{
+    "name": "react-microfrontend-poc",
+    "version": "1.0.0",
+    "description": "react poc on micro frontend",
+    "main": "index.js",
+    "repository": "https://github.com/kasiriveni/react-microfrontend-poc",
+    "author": "kasiriveni <kasiriveni@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "learn": "lerna init",
+        "start": "node server.js"
+    },
+    "devDependencies": {
+        "lerna": "^3.10.7",
+        "node-tailor": "^3.9.2"
+    }
+}
