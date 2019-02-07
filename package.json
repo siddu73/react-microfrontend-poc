@@ -6,12 +6,30 @@
     "repository": "https://github.com/kasiriveni/react-microfrontend-poc",
     "author": "kasiriveni <kasiriveni@gmail.com>",
     "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
     "scripts": {
         "learn": "lerna init",
-        "start": "node server.js"
+        "start": "node server.js",
+        "bootstrap": "lerna bootstrap",
+        "build-fragments": "lerna run build",
+        "watch-fragments": "lerna run --parallel watch"
     },
     "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
         "lerna": "^3.10.7",
-        "node-tailor": "^3.9.2"
+        "node-tailor": "^3.9.2",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.29.3",
+        "webpack-cli": "^3.2.3"
+    },
+    "dependencies": {
+        "react": "^16.8.1",
+        "react-dom": "^16.8.1"
     }
 }
