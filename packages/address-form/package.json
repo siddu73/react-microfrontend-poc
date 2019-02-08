@@ -5,6 +5,7 @@
     "license": "MIT",
     "scripts": {
         "build": "webpack",
-        "watch": "webpack -w"
+        "watch": "webpack -w",
+        "start": "node server.js"
     }
 }

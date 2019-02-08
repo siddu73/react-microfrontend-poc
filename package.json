@@ -11,10 +11,9 @@
         "packages/*"
     ],
     "scripts": {
-        "learn": "lerna init",
         "start": "node server.js",
         "bootstrap": "lerna bootstrap",
-        "build-fragments": "lerna run build",
+        "build": "lerna run build",
         "watch-fragments": "lerna run --parallel watch"
     },
     "devDependencies": {
