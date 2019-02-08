@@ -5,7 +5,8 @@ module.exports = {
     output: {
         path: __dirname + "/public",
         publicPath: "http://localhost:8081/public/",
-        filename: "bundle.js"
+        filename: "bundle.js",
+        libraryTarget: "amd"
     },
     module: {
         rules: [

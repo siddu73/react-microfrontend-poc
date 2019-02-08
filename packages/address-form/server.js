@@ -3,7 +3,7 @@ const url = require("url");
 const fs = require("fs");
 
 const hostname = "127.0.0.1";
-const port = 3000;
+const port = 8081;
 
 const server = http.createServer((req, res) => {
     const pathname = url.parse(req.url).pathname;
@@ -16,12 +16,12 @@ const server = http.createServer((req, res) => {
             res.writeHead(200, {
                 "Content-Type": "text/html",
                 Link:
-                    '<http://localhost:3000/public/bundle.js>; rel="fragment-script"'
+                    '<http://localhost:8081/public/bundle.js>; rel="fragment-script"'
             });
             return res.end("");
     }
 });
 
-server.listen(3000, () => {
+server.listen(8081, () => {
     console.log(`SPA Fragment Server started at http://${hostname}:${port}`);
 });

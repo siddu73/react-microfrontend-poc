@@ -13,7 +13,8 @@
     "scripts": {
         "start": "node server.js",
         "bootstrap": "lerna bootstrap",
-        "build": "lerna run build",
+        "build-fragments": "lerna run build",
+        "start-fragments": "lerna run --parallel start",
         "watch-fragments": "lerna run --parallel watch"
     },
     "devDependencies": {
