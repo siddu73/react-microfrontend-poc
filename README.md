@@ -1,5 +1,7 @@
 # react-microfrontend-poc
 
+[![Build Status](https://travis-ci.org/kasiriveni/react-microfrontend-poc.svg?branch=master)](https://travis-ci.org/kasiriveni/react-microfrontend-poc)
+
 Sample poc on micro frontend
 
 ### package.json
