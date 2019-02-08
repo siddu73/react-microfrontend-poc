@@ -12,6 +12,7 @@
     ],
     "scripts": {
         "start": "node server.js",
+        "install": "yarn install",
         "bootstrap": "lerna bootstrap",
         "build-fragments": "lerna run build",
         "start-fragments": "lerna run --parallel start",
