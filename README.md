@@ -23,4 +23,10 @@ yarn add node-tailor -D
 
  yarn start  - start the node with tailor server
 
+ yarn build-fragments  - Build the all fragements
+
+ yarn start-fragments - Start the fragments
+
+ yarn watch-fragments  - Watch the fragements
+
 ```
