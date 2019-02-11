@@ -1,11 +1,12 @@
 import { INCREMENT, DECREMENT } from "../actions";
 
-function addressForm(state = 0, action) {
+function addressForm(state = { count: 0 }, action) {
+    const count = state.count
     switch (action.type) {
         case INCREMENT:
-            return state + 1;
+            return { count: count + 1 };
         case DECREMENT:
-            return state - 1;
+            return { count: count - 1 };
         default:
             return state;
     }
