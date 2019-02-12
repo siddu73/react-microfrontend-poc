@@ -1,6 +1,6 @@
 {
     "name": "fragement-cli",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Basic fragement setup",
     "main": "bin/fragement-cli.js",
     "license": "MIT",
@@ -9,8 +9,7 @@
         "fragement-cli": "bin/fragement-cli.js"
     },
     "scripts": {
-        "start": "webpack",
-        "start:cli": "node index.js --help"
+        "start": "webpack"
     },
     "dependencies": {
         "react": "^16.8.1",
