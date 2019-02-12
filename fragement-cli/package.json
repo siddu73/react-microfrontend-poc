@@ -1,12 +1,12 @@
 {
     "name": "fragement-cli",
-    "version": "1.0.4",
-    "description": "Basic fragment setup",
-    "main": "bin/fragment-cli.js",
+    "version": "1.0.5",
+    "description": "Basic fragement setup",
+    "main": "bin/fragement-cli.js",
     "license": "MIT",
     "preferGlobal": true,
     "bin": {
-        "fragment-cli": "bin/fragment-cli.js"
+        "fragement-cli": "bin/fragement-cli.js"
     },
     "scripts": {
         "start": "webpack",
