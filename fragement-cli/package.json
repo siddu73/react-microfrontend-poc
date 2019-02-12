@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "webpack",
-        "start:cli": "node index.js"
+        "start:cli": "node index.js --help"
     },
     "dependencies": {
         "react": "^16.8.1",
