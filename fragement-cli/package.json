@@ -1,6 +1,6 @@
 {
     "name": "fragement-cli",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Basic fragement setup",
     "main": "bin/fragement-cli.js",
     "license": "MIT",
