@@ -1,8 +1,8 @@
 {
     "name": "fragement-cli",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Basic fragment setup",
-    "main": "index.js",
+    "main": "bin/fragment-cli.js",
     "license": "MIT",
     "preferGlobal": true,
     "bin": {
