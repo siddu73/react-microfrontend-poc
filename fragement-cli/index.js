@@ -3,7 +3,7 @@ const program = require("commander");
 const { createFragement } = require("./utils/index");
 
 program
-    .version("0.0.1")
+    .version("1.0.1")
     .description("Create custom fragement")
     .option(
         "-a  --add <fragementname>",
