@@ -6,7 +6,7 @@ const { createFragement } = require("../utils/index");
 
 program
     .version("1.0.4")
-    .description("Create custom fragement")
+    .description("create custom fragement")
     .option(
         "-a  --add <fragementname>",
         "create custom fragement",

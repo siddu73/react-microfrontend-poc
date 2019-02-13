@@ -9,20 +9,11 @@
         "fragement-cli": "bin/fragement-cli.js"
     },
     "scripts": {
-        "start": "webpack"
+        "start": "node bin/fragement-cli.js --help"
     },
-    "dependencies": {
-        "react": "^16.8.1",
-        "react-dom": "^16.8.1",
-        "@babel/core": "^7.2.2",
-        "@babel/preset-env": "^7.3.1",
-        "@babel/preset-react": "^7.0.0",
-        "babel-loader": "^8.0.5",
+    "devDependencies": {
         "commander": "^2.19.0",
         "inquirer": "^6.2.2",
-        "make-dir": "^2.0.0",
-        "webpack": "^4.29.3",
-        "webpack-cli": "^3.2.3"
-    },
-    "devDependencies": {}
+        "make-dir": "^2.0.0"
+    }
 }
