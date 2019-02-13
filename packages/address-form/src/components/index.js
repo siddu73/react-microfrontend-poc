@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { TrackerProvider, Tracker } from 'react-tracker'
 import store from "../store"
 import Counter from "../Container/App"
 import { Provider } from 'react-redux'

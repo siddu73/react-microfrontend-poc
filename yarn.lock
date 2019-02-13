@@ -5124,6 +5124,14 @@ promzard@^0.3.0:
   dependencies:
     read "1"
 
+prop-types@^15.5.10:
+  version "15.7.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.1.tgz#2fa61e0a699d428b40320127733ee2931f05d9d1"
+  integrity sha512-f8Lku2z9kERjOCcnDOPm68EBJAO2K00Q5mSgPAUE/gJuBgsYLbVy6owSrtcHj90zt8PvW+z0qaIIgsIhHOa1Qw==
+  dependencies:
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
@@ -5271,7 +5279,7 @@ react-dom@^16.8.1:
     prop-types "^15.6.2"
     scheduler "^0.13.1"
 
-react-is@^16.6.3, react-is@^16.7.0:
+react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1:
   version "16.8.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.1.tgz#a80141e246eb894824fb4f2901c0c50ef31d4cdb"
   integrity sha512-ioMCzVDWvCvKD8eeT+iukyWrBGrA3DiFYkXfBsVYIRdaREZuBjENG+KjrikavCLasozqRWTwFUagU/O4vPpRMA==
@@ -5287,6 +5295,13 @@ react-redux@^6.0.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-is "^16.6.3"
+
+react-tracker@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/react-tracker/-/react-tracker-0.0.8.tgz#865906ea0a422839025107d7b97832685de79b89"
+  integrity sha1-hlkG6gpCKDkCUQfXuXgyaF3nm4k=
+  dependencies:
+    prop-types "^15.5.10"
 
 react@^16.8.1:
   version "16.8.1"
